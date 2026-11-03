@@ -258,14 +258,16 @@ function PropertyPhoto({
   src,
   alt,
   className = "",
+  loading = "lazy",
 }: {
   src: string
   alt: string
   className?: string
+  loading?: "eager" | "lazy"
 }) {
   return (
     <div className={`property-photo ${className}`}>
-      <img src={src} alt={alt} loading="lazy" />
+      <img src={src} alt={alt} loading={loading} decoding="async" />
     </div>
   )
 }
