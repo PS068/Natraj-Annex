@@ -1,0 +1,11 @@
+{
+  "title": "cafechococraze",
+  "description": "Transform your cafe experience with a premium digital menu that enhances product discovery, featuring elegant design and intuitive navigation for customers.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
